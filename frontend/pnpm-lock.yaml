@@ -8,12 +8,18 @@ importers:
 
   .:
     dependencies:
+      '@joint/core':
+        specifier: ^4.0.3
+        version: 4.0.3
       bits-ui:
         specifier: ^0.21.7
         version: 0.21.7(svelte@4.2.17)
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
+      svelte-dnd-action:
+        specifier: ^0.9.45
+        version: 0.9.45(svelte@4.2.17)
       tailwind-merge:
         specifier: ^2.3.0
         version: 2.3.0
@@ -278,6 +284,9 @@ packages:
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
     engines: {node: '>=12'}
+
+  '@joint/core@4.0.3':
+    resolution: {integrity: sha512-1x26HztCmEeU+IBO/DM6ibWEVTP/b5ppoDJnbrVSvWE+537PoY+D+Q6dgBoQxNOqxQv+SLGrCw4+9wI94/HWCQ==}
 
   '@jridgewell/gen-mapping@0.3.5':
     resolution: {integrity: sha512-IzL8ZoEDIBRWEzlCcRhOaCupYyN5gdIK+Q6fbFdPDg6HqX6jpkItn7DFIpW9LQzXG6Df9sA7+OKnq0qlz/GaQg==}
@@ -1404,6 +1413,11 @@ packages:
     peerDependencies:
       svelte: ^3.55.0 || ^4.0.0-next.0 || ^4.0.0 || ^5.0.0-next.0
 
+  svelte-dnd-action@0.9.45:
+    resolution: {integrity: sha512-kGh7eK97ZqiY30Oe7k0EvMarHo3fCqGq3ZBq+May0Qf8eAORJOg5IjKGW04gBmP86BpMnXJRsKDi3ASk3h8a4Q==}
+    peerDependencies:
+      svelte: '>=3.23.0 || ^5.0.0-next.0'
+
   svelte-eslint-parser@0.36.0:
     resolution: {integrity: sha512-/6YmUSr0FAVxW8dXNdIMydBnddPMHzaHirAZ7RrT21XYdgGGZMh0LQG6CZsvAFS4r2Y4ItUuCQc8TQ3urB30mQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
@@ -1744,6 +1758,8 @@ snapshots:
       strip-ansi-cjs: strip-ansi@6.0.1
       wrap-ansi: 8.1.0
       wrap-ansi-cjs: wrap-ansi@7.0.0
+
+  '@joint/core@4.0.3': {}
 
   '@jridgewell/gen-mapping@0.3.5':
     dependencies:
@@ -2838,6 +2854,10 @@ snapshots:
       - sass
       - stylus
       - sugarss
+
+  svelte-dnd-action@0.9.45(svelte@4.2.17):
+    dependencies:
+      svelte: 4.2.17
 
   svelte-eslint-parser@0.36.0(svelte@4.2.17):
     dependencies:
