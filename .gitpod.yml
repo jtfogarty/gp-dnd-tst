@@ -3,11 +3,11 @@ image:
 
 tasks:
   - init: |
-      go mod download
-      npm install
+      go mod tidy
+      pnpm install
     command: |
-      go run main.go
+      wails dev
 
 ports:
-  - port: 8080
+  - port: 34115
     onOpen: open-preview
