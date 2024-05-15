@@ -11,3 +11,7 @@ tasks:
 ports:
   - port: 34115
     onOpen: open-preview
+
+vscode:
+  extensions:
+    - svelte.svelte-vscode
