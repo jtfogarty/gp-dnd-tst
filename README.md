@@ -2,15 +2,20 @@
 
 ## About
 
-This is the official Wails Svelte template.
+I created this wails app on gitpod using the below command;
+```./sk.sh pnpm newapp brand```
+This shells script is modified from here
+https://wails.io/docs/guides/sveltekit/#sveltekit-wailssh to work on gitpod.
 
-## Live Development
+The script creates a temp directory, does it's magic and moves the files (Thanks ChatGPT 4o)
 
-To run in live development mode, run `wails dev` in the project directory. This will run a Vite development
-server that will provide very fast hot reload of your frontend changes. If you want to develop in a browser
-and have access to your Go methods, there is also a dev server that runs on http://localhost:34115. Connect
-to this in your browser, and you can call your Go code from devtools.
+The commands I ran after the above are as follows;
 
-## Building
-
-To build a redistributable, production mode package, use `wails build`.
+```
+cd frontend/
+pnpm dlx svelte-add@latest tailwindcs
+pnpm install
+pnpm dlx shadcn-svelte@latest init
+pnpm dlx shadcn-svelte@latest add alert-dialog
+wails dev
+```
