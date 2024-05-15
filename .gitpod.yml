@@ -15,3 +15,5 @@ ports:
 vscode:
   extensions:
     - svelte.svelte-vscode
+    - golang.go
+    - bradlc.vscode-tailwindcss
