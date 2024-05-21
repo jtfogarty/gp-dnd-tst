@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
- 	"github.com/jtfogar/gp-dnd-tst/iputils"
+ 	"github.com/jtfogarty/gp-dnd-tst/internal/iputils"
 
 )
 
