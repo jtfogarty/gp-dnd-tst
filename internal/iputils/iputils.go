@@ -20,6 +20,9 @@ func parseIpCidr(input string) (ips []string, cidrs []string, err error) {
 		return nil, nil, errors.New("invalid ipCidr format")
 	}
 
+
+	///this is a test
+	
 	ipPart := strings.TrimSpace(parts[0])
 	cidrPart := strings.TrimSpace(parts[1])
 
