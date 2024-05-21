@@ -21,6 +21,10 @@ func NewApp() *App {
 // startup is called when the app starts. The context is saved
 // so we can call the runtime methods
 func (a *App) startup(ctx context.Context) {
+	a.ctx = ctx
+}
+
+func (a *App) TestMe() {
 	
 	sourceAddressPrefixes := []string{
 		"100.23.51.4", "100.81.1.0/16", "120.81.1.0/16", "140.81.1.0/16",
