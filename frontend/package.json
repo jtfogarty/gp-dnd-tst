@@ -35,8 +35,10 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@joint/core": "^4.0.3",
 		"bits-ui": "^0.21.7",
 		"clsx": "^2.1.1",
+		"svelte-dnd-action": "^0.9.45",
 		"tailwind-merge": "^2.3.0",
 		"tailwind-variants": "^0.2.1"
 	}
